@@ -4,27 +4,51 @@ body{
 }
 
  .body1{
-  height:600px;
-  width:400px;
+  height:500px;
+  width:450px;
   background: rgb(219,203,203);
-  background: linear-gradient(90deg, rgba(219,203,203,1) 0%, rgba(3,55,122,1) 93%);
-  border-radius: 40px;
+  background: linear-gradient(90deg, rgba(219,203,203,1) 0%, rgba(32,34,38,1) 0%);
+  border-top-right-radius:40px;
+  border-bottom-right-radius: 40px;
   position:absolute;
-  top:60px;
-  left:800px;
+  top:140px;
   opacity:0.5;
+  box-shadow:10px 10px 10px 10px white;
  }
  .body2{
-   height:600px;
-   width:400px;
+   height:500px;
+   width:300px;
    background: rgb(219,203,203);
    background: linear-gradient(90deg, rgba(219,203,203,1) 0%, rgba(32,34,38,1) 0%);
    position:relative;
-   top:60px;
-   left:500px;
-   border-radius:40px;
+   top:140px;
+   left:320px;
+   border-top-left-radius:40px;
+   border-bottom-left-radius: 40px;
    border-top:40px;
    border-left: 40px;
+   box-shadow:10px 10px 10px 10px white;
+   opacity:0.9;
 
-
- }
+}
+.body12{
+  height:1000px;
+  width:620px;
+  margin:0px auto 0px 0px;
+  position:absolute;
+  top:0px;
+  left:0px;
+  background-image:url(png2.jpg);
+  background-size:contain;
+  opacity:0.9;
+}
+.body23{
+  height:1000px;
+  width:897px;
+  position:absolute;
+  top:0px;
+  left:620px;
+  background-image: url(png3.jpg);
+  background-size: contain;
+  opacity:0.8;
+}
